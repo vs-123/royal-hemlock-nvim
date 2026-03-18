@@ -40,6 +40,7 @@ local groups = {
    Search           = { fg = colours.black, bg = colours.highlight_bg, bold = true },
    StatusLine       = { fg = colours.white, bg = colours.majestic, bold = true },
    StatusLineNC     = { fg = colours.grey, bg = colours.text },
+   Title            = { fg = colours.majestic, bg = colours.background, bold = true },
    Visual           = { fg = colours.black, bg = colours.cursor_bg },
 
    Comment          = { fg = colours.string },

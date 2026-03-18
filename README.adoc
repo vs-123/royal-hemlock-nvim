@@ -1,8 +1,13 @@
 :em: {sp}--{sp}
+:raw-url: https://raw.githubusercontent.com/vs-123/royal-hemlock-nvim/refs/heads/main
 
 = Royal Hemlock
 
 A *Neovim* port of my Royal Hemlock Theme link:https://github.com/vs-123/royal-hemlock-theme[for Emacs].
+
+== SCREENSHOT
+
+image:{raw-url}/royal-hemlock-theme-ss.png[Royal Hemlock Theme Demo (Screenshot)]
 
 == LICENSE
 
