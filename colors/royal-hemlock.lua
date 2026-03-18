@@ -38,6 +38,7 @@ local groups = {
    StatusLineNC     = { fg = colours.grey, bg = colours.text },
    Pmenu            = { fg = colours.text, bg = colours.hl_line },
    MatchParen       = { fg = colours.black, bg = colours.highlight_bg },
+   Operator         = { fg = colours.black },
 
    Comment          = { fg = colours.string },
    Constant         = { fg = colours.pink, bold = true },
