@@ -37,7 +37,17 @@ local groups = {
    ModeMsg          = { fg = colours.majestic, bg = colours.background, bold = true },
    Normal           = { fg = colours.text, bg = colours.background },
    Operator         = { fg = colours.black },
+
    Pmenu            = { fg = colours.text, bg = colours.hl_line },
+   PmenuSel         = { fg = colours.white, bg = colours.majestic },
+   PmenuSbar        = { fg = colours.white, bg = colours.background },
+   PmenuThumb       = { fg = colours.white, bg = colours.majestic },
+   PmenuKind        = { fg = colours.majestic, bg = colours.background, bold = true },
+   PmenuMatchSel    = { fg = colours.white, bg = colours.majestic, bold = true },
+
+   NormalFloat      = { link = "Pmenu" },
+   FloatBorder      = { fg = colours.majestic, bg = colours.hl_line },
+
    Question         = { fg = colours.majestic, bg = colours.background, bold = true },
    Search           = { fg = colours.black, bg = colours.highlight_bg, bold = true },
    StatusLine       = { fg = colours.white, bg = colours.majestic, bold = true },
