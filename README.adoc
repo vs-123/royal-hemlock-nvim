@@ -3,11 +3,46 @@
 
 = Royal Hemlock
 
-A *Neovim* port of my Royal Hemlock Theme link:https://github.com/vs-123/royal-hemlock-theme[for Emacs].
+A soothing, *light-theme* for Neovim, focused on *royal blue* colour against a warm white background. This is a *Neovim* port of my *Royal Hemlock Theme* link:https://github.com/vs-123/royal-hemlock-theme[for Emacs].
 
 == SCREENSHOT
 
 image:{raw-url}/royal-hemlock-theme-ss.png[Royal Hemlock Theme Demo (Screenshot)]
+
+== INSTALLATION
+
+=== link:https://github.com/folke/lazy.nvim[lazy.nvim]
+
+[source,lua]
+----
+{
+   "vs-123/royal-hemlock-nvim"
+}
+----
+
+=== link:https://github.com/wbthomason/packer.nvim[packer.nvim]
+
+[source,lua]
+----
+use({
+   "vs-123/royal-hemlock-nvim"
+})
+----
+
+=== link:https://github.com/junegunn/vim-plug[vim-plug]
+
+[source,vim]
+----
+Plug 'vs-123/royal-hemlock-nvim'
+----
+
+=== Manual Method
+
+[source,bash]
+----
+git clone https://github.com/vs-123/royal-hemlock-nvim.git \
+   ~/.local/share/nvim/site/pack/themes/start/royal-hemlock-nvim
+----
 
 == LICENSE
 
