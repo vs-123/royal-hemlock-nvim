@@ -42,6 +42,9 @@ local groups = {
    Search           = { fg = colours.black, bg = colours.highlight_bg, bold = true },
    StatusLine       = { fg = colours.white, bg = colours.majestic, bold = true },
    StatusLineNC     = { fg = colours.grey, bg = colours.text },
+   TabLine          = { fg = colours.grey, bg = colours.hl_line },
+   TabLineSel       = { fg = colours.white, bg = colours.majestic, bold = true },
+   TabLineFill      = { bg = colours.background },
    Title            = { fg = colours.majestic, bg = colours.background, bold = true },
    Visual           = { fg = colours.black, bg = colours.cursor_bg },
 
