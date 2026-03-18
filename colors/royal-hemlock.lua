@@ -5,17 +5,18 @@
 -- [LINK] https://github.com/vs-123/royal-hemlock-nvim
 
 local colours = {
-   black        = "#000000",
-   grey         = "#AAAAAA",
-   white        = "#FFFFFF",
    background   = "#FFFFEE",
-   hl_line      = "#F2F2E1",
+   black        = "#000000",
    cursor_bg    = "#BFFFFF",
+   error        = "#FC4949",
+   grey         = "#AAAAAA",
    highlight_bg = "#3FFFFF",
+   hl_line      = "#F2F2E1",
    majestic     = "#0000BB",
+   pink         = "#FC55C2",
    string       = "#007F00",
    text         = "#3F3F3F",
-   pink         = "#FC55C2",
+   white        = "#FFFFFF",
 }
 
 if vim.g.colors_name then
@@ -46,7 +47,8 @@ local groups = {
 
    Comment          = { fg = colours.string },
    Constant         = { fg = colours.pink, bold = true },
-   Error            = { fg = colours.majestic, bold = true },
+   Error            = { fg = colours.error, bold = true },
+   ErrorMsg         = { fg = colours.error, bold = true },
    Function         = { fg = colours.text },
    Identifier       = { fg = colours.black },
    PreProc          = { fg = colours.majestic, bold = true },
