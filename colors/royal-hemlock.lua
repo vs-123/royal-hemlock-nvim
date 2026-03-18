@@ -83,7 +83,9 @@ local groups = {
 
    cmakeVariable      = { link = "Type" },
    cmakeVariableValue = { link = "Type" },
-   cmakeCommand       = { link = "@keyword" }
+   cmakeCommand       = { link = "@keyword" },
+
+   asciidocQuotedMonospaced2 = { fg = colours.majestic, bold = false },
 }
 
 for group, settings in pairs(groups) do
