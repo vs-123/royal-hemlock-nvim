@@ -3,7 +3,9 @@
 
 = Royal Hemlock
 
-A soothing, *light-theme* for Neovim, focused on *royal blue* colour against a warm white background. This is a *Neovim* port of my *Royal Hemlock Theme* link:https://github.com/vs-123/royal-hemlock-theme[for Emacs].
+A soothing, *light-theme* for Neovim, focused on *royal blue* colour against a warm white background.
+
+This is a *Neovim* port of my *Royal Hemlock Theme* link:https://github.com/vs-123/royal-hemlock-theme[for Emacs].
 
 == SCREENSHOT
 
