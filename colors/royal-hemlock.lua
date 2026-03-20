@@ -38,7 +38,8 @@ local groups = {
    MoreMsg                   = { fg = colours.majestic, bg = colours.background, bold = true },
 
    Normal                    = { fg = colours.text, bg = colours.background },
-   Operator                  = { fg = colours.black },
+   Operator                  = { fg = colours.text },
+   Delimiter                 = { fg = colours.text },
 
    helpHyperTextJump         = { fg = colours.majestic, bold = false },
    helpBar                   = { fg = colours.majestic, bold = false },
