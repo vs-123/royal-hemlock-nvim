@@ -81,6 +81,8 @@ local groups = {
    Type                                  = { fg = colours.majestic, bold = true },
    Underlined                            = { fg = colours.majestic, underline = true, bold = true },
 
+   Whitespace                            = { fg = colours.grey },
+
    QuickFixLine                          = { fg = colours.white, bg = colours.majestic, bold = true },
 
    ["@function"]                         = { fg = colours.text },
